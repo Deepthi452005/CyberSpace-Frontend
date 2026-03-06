@@ -431,6 +431,7 @@
       transform: scale(0);
       color: #fff;
       transition-delay: 0s;
+      animation: none;
     }
 
     .nav-item .nav-label {
@@ -2203,7 +2204,7 @@
       }
     }
   </style>
-    <link rel="stylesheet" href="cyber-notifications.css">
+  <link rel="stylesheet" href="cyber-notifications.css">
 </head>
 
 <body>
@@ -2250,21 +2251,21 @@
           <i class="fas fa-route"></i>
           <span class="nav-label">Learning Paths</span>
         </div>
-        <div class="nav-item" style="--i: #f97316; --j: #ef4444;">
+        <div class="nav-item" style="--i: #f97316; --j: #ef4444;" onclick="window.location.href='ctf-challenges.html'">
           <i class="fas fa-briefcase"></i>
-          <span class="nav-label">Career Paths</span>
+          <span class="nav-label">CTF</span>
         </div>
-        <div class="nav-item" style="--i: #eab308; --j: #f97316;">
+        <div class="nav-item" style="--i: #eab308; --j: #f97316;" onclick="window.location.href='cyber-roadmap.html'">
           <i class="fas fa-map-signs"></i>
           <span class="nav-label">Roadmaps</span>
         </div>
         <div class="nav-item" style="--i: #8b5cf6; --j: #ec4899;">
-            <i class="fas fa-robot"></i>
-            <span class="nav-label">Nova AI</span>
+          <i class="fas fa-robot"></i>
+          <span class="nav-label">Nova AI</span>
         </div>
         <div class="nav-item" style="--i: #06b6d4; --j: #3b82f6;" onclick="window.location.href='achievements.html'">
-            <i class="fas fa-trophy"></i>
-            <span class="nav-label">Achievements</span>
+          <i class="fas fa-trophy"></i>
+          <span class="nav-label">Achievements</span>
         </div>
 
         <div class="sidebar-spacer"></div>
@@ -2810,7 +2811,7 @@
       });
     });
   </script>
-    <script src="cyber-notifications.js"></script>
+  <script src="cyber-notifications.js"></script>
 </body>
 
 </html>
